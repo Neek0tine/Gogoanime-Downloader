@@ -32,7 +32,7 @@ python main.py
 <b> Screenshot may differ from the actual program <br></b>
 The main window:
 
-<img src="https://github.com/Neek0tine/Gogoanime-Downloader/blob/main/screenshot0.png" width="633" height="409">
+<img src="https://github.com/Neek0tine/Gogoanime-Downloader/blob/main/screenshot0.png" width="840" height="728">
 
 ## End-User License Agreement
 
