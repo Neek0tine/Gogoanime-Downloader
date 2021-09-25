@@ -37,9 +37,9 @@ The main window:
 ## End-User License Agreement
 
 By running the software, the user acknowledged that:
- 1. The user acknowledges that this app is made for EDUCATIONAL PURPOSES ONLY, and the Author emphasize to not use this program so oftenly, as to not disturb the streaming service (Anime Kisa) traffic .
+ 1. The user acknowledges that this app is made for EDUCATIONAL PURPOSES ONLY, and the Author emphasize to not use this program so oftenly, as to not disturb the streaming service traffic.
  2. The user agrees and follows the Term of Service provided [LICENSE](https://github.com/Neek0tine/AKDownloader/blob/master/LICENSE)
- 3. All changes that happened to end-user's computer, online account, or property made by running this appplication is NOT the responsibilty of the author
+ 3. All changes that happened to end-user's computer, online account, or property made by running this appplication is NOT the responsibility of the author
 
 
 ## Authors
