@@ -6,8 +6,8 @@ from time import sleep
 from textwrap import fill
 from tabulate import tabulate
 from bs4 import BeautifulSoup
-from urllib3 import PoolManager
-from urllib import parse, request
+from urllib3 import PoolManager, request
+from urllib.parse import urlencode
 from pyloader import Loader, DLable
 
 
