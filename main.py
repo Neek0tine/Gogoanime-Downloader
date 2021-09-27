@@ -30,7 +30,7 @@ class downloader:
     def search(self):
 
         _initial_requests = html.request('GET', 'https://gogoanime.pe//search.html?keyword=' + str(
-            (parse.urlencode({'q': f'{input("[+] Anime to search: ") or "sword art online"}'}).split('='))[-1]))
+            (urlencode({'q': f'{input("[+] Anime to search: ") or "sword art online"}'}).split('='))[-1]))
 
         if _initial_requests.status != 200:
             print(f'[!] Gogoanime error code {_initial_requests.status}! Please try again in several minutes!')
