@@ -1,7 +1,7 @@
 import os
 import winreg
 import inquirer
-from re import sub
+from re import sub, compile
 from time import sleep
 from textwrap import fill
 from tabulate import tabulate
@@ -139,12 +139,10 @@ class downloader:
                 '#wrapper_bg > section > section.content_left > div:nth-child(1) > div.anime_video_body > '
                 'div.anime_video_body_cate > div.favorites_book > ul > li.dowloads > a')
 
-            _download_link = (BeautifulSoup((html.request('GET', _download_page[0]['href'])).data,
-                                            features='html.parser').select_one(
-                '#main > div > div.content_c > div > div:nth-child(5) > div:nth-child(3) > a'))['href']
+            _download_link = (BeautifulSoup((html.request('GET', _download_page[0]['href'])).data, features='html.parser')).findAll(href=compile("\.mp4$"))[0]['href']
+            print(_download_link)
 
-            target = DLable(url=_download_link, target_dir=f'{download_location}\\Downloader\\{_filename}',
-                            file_name=f'{_filename} Episode {str(episode)}.mp4')
+            target = DLable(url=_download_link, target_dir=f'{download_location}\\Downloader\\{_filename}', file_name=f'{_filename} Episode {str(episode)}.mp4')
             loader.download(target)
 
             while loader.is_active():
