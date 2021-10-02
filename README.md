@@ -1,6 +1,8 @@
 
 <a href='https://discord.gg/gWqbP9j3EV'> ![Discord](https://img.shields.io/discord/257479001365413889?label=Discord&style=flat-square) This is where I live. </a>
 
+(THIS SOFTWARE IS CURRENTLY INOPERATIONAL DUE TO CHANGES IN STREAMING SERVERS)
+
 # Gogoanime Downloader
 
 A program to simplify the process of batch downloading anime series. Started off because torrent downloading is slow and I'm too lazy to click the "Download" button on each episode.
